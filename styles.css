@@ -21,8 +21,7 @@ body {
 img,
 picture,
 video,
-canvas,
-svg {
+canvas {
   display: block;
   max-width: 100%;
 }
@@ -114,4 +113,30 @@ a {
   width: 20px;
   height: 20px;
   fill: #fff;
+}
+
+/*Main section*/
+.search-icon {
+  width: 20px;
+  height: 20px;
+  fill: #282929;
+}
+main {
+  grid-column: span 10;
+  padding: 20px;
+}
+.search-container {
+  width: calc(45vw + 40px);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  vertical-align: middle;
+}
+
+.search-container input {
+  width: 35vw;
+  border-radius: 20px;
+  padding: 5px;
+  border: 1px solid #d4d4d4;
+  background-color: #d4d4d4;
 }
